@@ -1,0 +1,16 @@
+---
+title: "Fuentes"
+---
+
+## PDFs consultados en `books/`
+
+| Archivo | Uso en el sitio |
+|---|---|
+| `books/NU_1153_2_X79_999105013R_R8_07_2015.pdf` | Intervalo 10.000 km / 12 meses y alertas de mantenimiento |
+| `books/NU1308_1_HJD_999100575S_GU.pdf` | Niveles, aceite, presiones y recomendaciones de seguridad |
+| `books/X79-NU-1153-8-ESP-201808.pdf` | Caracteristicas motor 1.6, dimensiones y capacidades |
+| `books/X79_NU_1013-5_ESP_201306.pdf` | Referencia complementaria de la familia Duster 1.6 |
+
+::: {.callout-important}
+Para valores exactos de tu unidad, confirmar con etiqueta fisica del vehiculo y manual de tu VIN.
+:::

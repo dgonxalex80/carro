@@ -1,0 +1,32 @@
+---
+title: "Ficha tecnica"
+---
+
+## Motor 1.6 16V
+
+| Dato | Valor de referencia |
+|---|---|
+| Tipo de motor | K4M (tambien existe H4M en otras versiones) |
+| Cilindrada | 1.598 cm3 |
+| Potencia | 104 cv a 5.750 rpm (K4M) |
+| Par motor | 148 Nm a 3.750 rpm (K4M) |
+| Combustible | Gasolina sin plomo, segun octanaje en tapa de combustible |
+
+## Dimensiones generales
+
+| Dato | Valor aprox. |
+|---|---|
+| Largo | 4,33 a 4,34 m |
+| Ancho | 1,82 m |
+| Alto | 1,56 a 1,69 m |
+| Distancia entre ejes | 2,67 m |
+| Tanque | 50 litros |
+
+![](img/dimensiones.png){fig-alt="Esquema de dimensiones de la Duster"}
+
+## Capacidades de carga
+
+| Elemento | Valor de referencia |
+|---|---|
+| Carga en bola de enganche | 75 kg |
+| Carga en techo | 80 kg (incluyendo portaequipajes) |
