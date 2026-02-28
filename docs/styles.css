@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700;800&family=Space+Grotesk:wght@500;700&display=swap");
+
+:root {
+  --bg-dark: #13222e;
+  --bg-deep: #0f1a23;
+  --panel: #fefcf7;
+  --panel-soft: #f4efe3;
+  --text: #1a2b37;
+  --muted: #4e6577;
+  --brand: #ff7a18;
+  --brand-2: #005d7a;
+  --line: #d8decb;
+  --ok: #2d8f58;
+  --shadow: 0 16px 32px rgba(9, 22, 31, 0.18);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Outfit", "Segoe UI", sans-serif;
+  color: var(--text);
+  background:
+    radial-gradient(circle at 85% 7%, rgba(255, 122, 24, 0.19), transparent 32%),
+    radial-gradient(circle at 12% 22%, rgba(0, 93, 122, 0.24), transparent 30%),
+    linear-gradient(170deg, #f7f9f1 0%, #ece8db 100%);
+  line-height: 1.65;
+}
+
+#quarto-header .navbar {
+  background: linear-gradient(90deg, var(--bg-dark), #1f3a4a 55%, var(--bg-deep));
+  border-bottom: 2px solid rgba(255, 122, 24, 0.48);
+  box-shadow: 0 8px 24px rgba(7, 16, 23, 0.4);
+}
+
+.navbar-brand .navbar-title {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  color: #f6f9ff;
+}
+
+.navbar-nav .nav-link {
+  color: rgba(244, 248, 252, 0.9);
+  border-radius: 999px;
+  padding: 0.36rem 0.82rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: #fff;
+  background: linear-gradient(120deg, var(--brand), #f3ab34);
+  transform: translateY(-1px);
+}
+
+#quarto-content main.content {
+  max-width: 980px;
+  margin: 1.25rem auto 2.5rem;
+  padding: 0 1rem;
+}
+
+#title-block-header {
+  background: linear-gradient(145deg, #fffdf8, #f4efe3);
+  border: 1px solid var(--line);
+  border-left: 6px solid var(--brand);
+  border-radius: 18px;
+  box-shadow: var(--shadow);
+  padding: 1.2rem 1.4rem 1rem;
+  margin-bottom: 1.2rem;
+}
+
+#title-block-header h1.title {
+  margin: 0;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: clamp(1.5rem, 3.3vw, 2.15rem);
+  letter-spacing: 0.01em;
+  color: #1a3344;
+}
+
+p {
+  color: #213443;
+}
+
+main.content > p:first-of-type {
+  font-size: 1.06rem;
+  color: #355061;
+}
+
+h2,
+h3,
+h4 {
+  font-family: "Space Grotesk", sans-serif;
+  color: #103246;
+  letter-spacing: 0.01em;
+}
+
+h2 {
+  margin-top: 1.5rem;
+  padding-top: 0.2rem;
+  border-top: 1px dashed #b8c7b1;
+}
+
+ul li {
+  margin-bottom: 0.35rem;
+}
+
+img,
+.img-fluid {
+  border-radius: 14px;
+  border: 2px solid #f9f4e7;
+  box-shadow: 0 16px 28px rgba(16, 36, 48, 0.22);
+}
+
+a {
+  color: var(--brand-2);
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 0.16em;
+}
+
+a:hover {
+  color: #003f5a;
+}
+
+.callout {
+  border: 1px solid #bfd9cf;
+  border-left: 6px solid var(--ok);
+  border-radius: 14px;
+  background: linear-gradient(130deg, #f6fff8 0%, #eff9f2 100%);
+  box-shadow: 0 8px 18px rgba(18, 55, 33, 0.11);
+}
+
+.callout .callout-title-container {
+  font-family: "Space Grotesk", sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+  border-radius: 12px;
+  overflow: hidden;
+  width: 100%;
+}
+
+table th {
+  background: #edf4da;
+  color: #173041;
+}
+
+table th,
+table td {
+  border: 1px solid var(--line);
+  padding: 0.58rem 0.66rem;
+}
+
+code {
+  background: #fff2df;
+  color: #50351b;
+  padding: 0.1rem 0.34rem;
+  border-radius: 0.35rem;
+}
+
+@media (max-width: 768px) {
+  #quarto-content main.content {
+    padding: 0 0.8rem;
+  }
+
+  #title-block-header {
+    border-radius: 14px;
+    padding: 1rem;
+  }
+
+  #title-block-header h1.title {
+    font-size: 1.35rem;
+  }
+
+  .navbar-nav .nav-link {
+    margin: 0.14rem 0;
+  }
+}
